@@ -1,0 +1,119 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>站点设置</title>
+    <meta name="keywords" content="<?php echo F('WEB_NAME');?>后台">
+    <meta name="description" content="<?php echo F('WEB_NAME');?>后台是由逸天科技的faling研发">
+
+    <link rel="shortcut icon" href="favicon.ico"> <link href="/yitian/Public/css/bootstrap.min.css?v=3.3.5" rel="stylesheet">
+    <link href="/yitian/Public/css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+    <link href="/yitian/Public/css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="/yitian/Public/css/animate.min.css" rel="stylesheet">
+    <link href="/yitian/Public/css/style.min.css?v=4.1.0" rel="stylesheet"><base target="_blank">
+
+</head>
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>站点信息 </h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <form method="post" class="form-horizontal" target="_self" action="<?php echo U('setsite');?>">
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">站点名称</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="sitename" class="form-control" value="<?php echo F('WEB_NAME');?>">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">版权所有</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="copyright" class="form-control" value=<?php echo F("WEB_COPYRIGHT");?>>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">开发人员</label>
+                            <div class="col-sm-10">
+                                <input type="phone" name="developer" class="form-control" value=<?php echo F("WEB_AUTHOR");?>>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">联系方式</label>
+                            <div class="col-sm-10">
+                                <input type="email" name="developeremail" class="form-control" value=<?php echo F("AUTHOR_EMAIL");?>>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">版本</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="version" value=<?php echo F("WEB_VERSION");?> >
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">更新时间</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="updatetime" disabled value=<?php echo F("RELEASE_TIME");?> >
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <div class="col-sm-4 col-sm-offset-2">
+                                <button class="btn btn-primary" type="submit">保存内容</button>
+                                <button class="btn btn-primary" type="button" onclick="pusharticle()">导出数据库</button>
+                                <button class="btn btn-white" type="submit">取消</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="/yitian/Public/js/jquery.min.js?v=2.1.4"></script>
+<script src="/yitian/Public/js/bootstrap.min.js?v=3.3.5"></script>
+<script src="/yitian/Public/js/content.min.js?v=1.0.0"></script>
+<script src="/yitian/Public/js/plugins/iCheck/icheck.min.js"></script>
+<script>
+    $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green",})});
+    function pusharticle() {
+            $.post("/yitian/index.php/admin/Savedb/dumpmysql","",function(result){
+                console.log(result);
+                if(result.status == 200){
+                    parent.layer.alert('导出成功');
+                }else{
+                    parent.layer.alert("导出失败" + result.message);
+                }
+            });
+    }
+</script>
+</body>
+
+</html>

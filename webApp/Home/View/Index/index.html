@@ -1,0 +1,284 @@
+<include file="Index/header" />
+            <!--头部部分-->
+
+            <!--<TABLE width="990" align="center" border="0" cellspacing="0" cellpadding="0">-->
+                <!--<TBODY>-->
+                <!--<TR>-->
+                    <!--<TD><IMG width="990" src="__PUBLIC__/img/h_01b.jpg"-->
+                             <!--border="0" usemap="#Map">-->
+                    <!--</TD></TR></TBODY></TABLE>-->
+            <!--<DIV id="menu" style="background-color:#2d3c7f;">-->
+                <!--<UL id="nav" >-->
+                    <!--<volist name="position['导航栏']['content']" id="data">-->
+                    <!--<LI class="mainlevel" id="mainlevel_01"><A href="{$data.url}"-->
+                                                               <!--target="_self">{$data.title}</A></LI>-->
+                    <!--</volist>-->
+                <!--</UL></DIV>-->
+
+
+
+
+            <!--轮播以及侧边栏-->
+
+
+            <TABLE width="963" align="center" bgcolor="#ffffff" border="0" cellspacing="0"
+                   cellpadding="0">
+                <TBODY>
+                <TR>
+                    <TD width="657" style="font-size: 0px;">
+                        <DIV id="focus" style="float: left;" cmsid="17431099" offsetheight="0">
+                            <UL>
+                                <!--绑定栏目编码，读取文章的主题图-->
+
+                               <volist name="position['轮播图']['content']" id="data">
+                                <A href="{$data.url}"><IMG width="657" height="320" src="http://localhost/yitian{$data.thumb}" border="0"></A>
+                                </volist>
+                            </UL></DIV></TD>
+
+
+
+                    <TD align="center" valign="baseline">
+                        <TABLE width="299" height="326" id="tableinner" border="0" cellspacing="0"
+                               cellpadding="0">
+                            <TBODY>
+                            <div class="talent" style="width: 290px;">
+                                <div class="placeholder" style="margin-left: -135px;"></div>
+                                <a>集团资讯</a>
+                                <span class="more"><a href="http://localhost/yitian/index.php/home/index/cat/catid/{$article['集团资讯']['id']}">
+                                    更多&gt;</a>
+            </span>
+                            </div>
+                            <TR>
+                                <TD width="299" height="120" background="__PUBLIC__/img/indexnew_020.png"
+                                    style="padding-left: 10px;">
+                                    <!--<SCRIPT src="js/shouye2011gg.asp" type="text/javascript"></SCRIPT>-->
+
+                                    <TABLE width="280" align="left" class="t5" border="0" cellspacing="0"
+                                           cellpadding="0">
+                                        <TBODY>
+
+                                        <volist  name="article['集团资讯']['content']" id="news" offset="0" length='7'>
+                                        <TR>
+                                            <TD width="12" height="18" align="center"><IMG src="__PUBLIC__/img/x.gif">
+                                            </TD>
+                                            <TD height="21" class="gg"><A title="" href="http://localhost/yitian/index.php/home/index/detail/newsid/{$news.news_id}"
+                                                                          target="_self">{$news.title}...</A></TD></TR>
+                                        </volist >
+
+                                      </TBODY>
+                                    </TABLE></TD></TR>
+
+
+
+                            <TR>
+                                <TD><IMG width="299" alt="" src="__PUBLIC__/img/c1_06.gif"></TD></TR>
+                            <TR>
+                                <TD width="299" height="51" background="__PUBLIC__/img/indexnew_06.png">
+
+
+                                    <STYLE type="text/css">
+                                        <!--
+                                        body {
+                                            margin-left: 0px;
+                                            margin-top: 0px;
+                                            margin-right: 0px;
+                                            margin-bottom: 0px;
+                                        }
+                                        -->
+                                    </STYLE>
+                                    <TABLE width="300" height="30" border="0" cellspacing="2"
+                                           cellpadding="0">
+                                        <TBODY>
+
+                                        <TR>
+                                            <volist  name="position['快速通道']['content']" id="tongdao" offset="0" length='3'>
+                                            <TD class="tdborder">
+                                                <DIV align="center" cmsid="68404189"><A class="l1" href="{$tongdao.url}"
+                                                                                        target="_self">{$tongdao.title}</A></DIV></TD>
+
+                                            </volist>
+                                        </TR>
+                                        <TR>
+                                            <volist  name="position['快速通道']['content']" id="tongdao" offset="3" length='3'>
+                                                <TD class="tdborder">
+                                                    <DIV align="center" cmsid="68404189"><A class="l1" href="{$tongdao.url}"
+                                                                                            target="_self">{$tongdao.title}</A></DIV></TD>
+                                            </volist>
+                                        </TR>
+
+                                       </TBODY></TABLE>
+                            <TR>
+                                <TD><IMG width="299" alt="" src="__PUBLIC__/img/c1_06.gif"></TD></TR>
+
+                            <TR>
+                                <TD width="299" height="31" background="__PUBLIC__/img/indexnew_07.jpg"
+                                    style="padding-left: 16px;">
+                                    <FORM action="/html/search.html" method="get"><LABEL><INPUT name="keyword" class="word" id="qText" onfocus="this.value=''" onblur="if(this.value==''){this.value='查询关键字';}" type="text" size="28" value="站内搜索">
+                                        <INPUT name="searchType" type="hidden" value="2">
+                                        <INPUT name="Submit" width="20" class="smallInput1" type="submit" value="搜索">
+                                    </LABEL></FORM></TD></TR></TBODY></TABLE>
+                    </TD></TR></TBODY></TABLE>
+
+
+
+
+            <!--下半部分，人才培养，学校新闻，校园动态-->
+
+            <TABLE width="963" align="center" style="border: 1px solid rgb(229, 224, 205);"
+                   border="0" cellspacing="0" cellpadding="0">
+                <TBODY>
+                <TR>
+                    <TD width="657" valign="top">
+                        <TABLE width="657" bgcolor="#f2f0e8" border="0" cellspacing="0"
+                               cellpadding="0">
+                            <TBODY>
+                            <TR>
+                                <TD width="230" valign="top">
+                                    <TABLE width="230" border="0" cellspacing="0" cellpadding="0">
+                                        <TBODY>
+                                        <div class="talent">
+                                            <div class="placeholder"></div>
+                                            <a>人才培养</a>
+                                            <span class="more"><a href="http://localhost/yitian/index.php/home/index/cat/catid/{$article['人才培养']['id']}">
+                                    更多&gt;</a>
+            </span>
+                                        </div>
+                                        <TR>
+                                            <TD height="70" valign="top">
+                                                <TABLE width="100%" height="11" border="0" cellspacing="0"
+                                                       cellpadding="0">
+                                                    <TBODY>
+
+                                                    <volist  name="article['人才培养']['content']" id="news" offset="0" length='6'>
+                                                    <TR>
+                                                        <TD width="27" height="25" align="center"><IMG src="__PUBLIC__/img/x.gif">
+                                                        </TD>
+                                                        <TD height="25"><A title="" href="http://localhost/yitian/index.php/home/index/detail/newsid/{$news.news_id}"
+                                                                           target="_self">{$news.title}...</A></TD></TR>
+                                                    </volist>
+
+                                                 </TBODY></TABLE></TD></TR>
+                                        <TR>
+                                            <TD><IMG width="230" height="44" alt="" src="__PUBLIC__/img/c1_11.gif"></TD></TR>
+                                        <TR>
+                                            <TD height="98" align="center">
+                                                <TABLE width="83%" height="110" border="0" cellspacing="0"
+                                                       cellpadding="0">
+                                                    <TBODY>
+                                                    <TR>
+                                                        <TD><IMG width="5" height="8" src="__PUBLIC__/img/arrow.jpg"><A
+                                                                class="l" href="#"
+                                                                target="_blank"> 办学成果展</A></TD>
+                                                        <TD><IMG width="5" height="8" src="__PUBLIC__/img/arrow.jpg"><A
+                                                                class="l" href="#"
+                                                                target="_blank"> 优秀学子</A></TD></TR>
+
+                                                        <TD><IMG src="__PUBLIC__/img/arrow.jpg">
+                                                            <A class="l" href="#"
+                                                               target="_blank">名师风采</A></TD>
+                                                        <TD><IMG width="5" height="8" src="__PUBLIC__/img/arrow.jpg"><A
+                                                                class="l" href="#"
+                                                                target="_blank"> 校友之星</A></TD>
+                                                    <TR>
+                                                        <TD><IMG width="5" height="8" src="__PUBLIC__/img/arrow.jpg"><A
+                                                                class="l" href="#"
+                                                                target="_blank"> 名人大讲堂</A></TD>
+                                                        <TD><IMG width="5" height="8" src="__PUBLIC__/img/arrow.jpg"><A
+                                                                class="l" href="#"
+                                                                target="_blank"> 校园专题</A></TD></TR>
+                                                    <TR>
+                                                        <TD><IMG width="5" height="8" src="__PUBLIC__/img/arrow.jpg"><A
+                                                                class="l" href="#"
+                                                                target="_blank"> 校园文化</A></TD>
+                                                        <TD><IMG width="5" height="8" src="__PUBLIC__/img/arrow.jpg"><A
+                                                                class="l" href="#"
+                                                                target="_blank"> 媒体报道</A> </TD></TR></TBODY></TABLE></TD></TR>
+                                        </TBODY>
+                                    </TABLE>
+                                </TD>
+                                <TD valign="top">
+                                    <TABLE width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <TBODY>
+                                        <div class="talent" style="width: 420px;">
+                                            <div class="placeholder"></div>
+                                            <a>学校新闻</a>
+                                            <span class="more"><a href="http://localhost/yitian/index.php/home/index/cat/catid/{$article['学校新闻']['id']}">
+                                    更多&gt;</a>
+            </span>
+                                        </div>
+                                        <volist name="article['学校新闻']['content']" id="news" offset="0" length='1'>
+                                        <TR>
+                                            <TD align="center" style="padding-top: 10px;">
+                                                <TABLE width="400" height="100" border="0" cellspacing="0"
+                                                       cellpadding="0">
+                                                    <TBODY>
+                                                    <TR>
+                                                        <TD width="160" align="center" valign="top">
+                                                            <TABLE border="0" cellspacing="0" cellpadding="0">
+                                                                <TBODY>
+                                                                <TR>
+                                                                    <TD height="5"></TD></TR>
+                                                                <TR>
+                                                                    <TD width="137" align="center" valign="top"><A
+                                                                            href="http://localhost/yitian/index.php/home/index/detail/newsid/{$news.news_id}"
+                                                                            target="_self"><IMG width="137" height="93" src="http://localhost/yitian{$news.thumb}"
+                                                                                                 border="0"></A><A href="#/adt/pnews.asp?id=1609"
+                                                                                                                   target="_self"></A></TD></TR></TBODY></TABLE></TD>
+                                                        <TD align="left">
+                                                            <TABLE width="235" border="0" cellspacing="0"
+                                                                   cellpadding="0">
+                                                                <TBODY>
+                                                                <TR>
+                                                                    <TD height="20">&nbsp;<IMG alt="" src="__PUBLIC__/img/x.gif"><SPAN
+                                                                            class="STYLE3">{$news.title}...</SPAN></TD></TR>
+                                                                <TR>
+                                                                    <TD height="35" valign="top"><A href="http://localhost/yitian/index.php/home/index/detail/newsid/{$news.news_id}"
+                                                                                                    target="_self">　　{$news.description}...</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                                            </volist>
+                                        <TR>
+                                            <TD align="center">
+                                                <TABLE width="392">
+                                                    <TBODY>
+                                                    <volist name="article['学校新闻']['content']" id="news" offset="1" length='10'>
+                                                    <TR>
+                                                        <TD width="12" height="19" align="center"><IMG src="__PUBLIC__/img/x.gif"></TD>
+                                                        <TD height="20"><A href="http://localhost/yitian/index.php/home/index/detail/newsid/{$news.news_id}"
+                                                                           target="_self">{$news.title}......</A></TD>
+                                                        <TD></TD></TR>
+                                                    </volist>
+                                                   </TBODY></TABLE></TD></TR>
+                                        <TR>
+                                            <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+                    <TD valign="top" bgcolor="#f2f0e8">
+                        <TABLE width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <TBODY>
+
+                            <div class="talent" style="width: 305px;margin-left: 15px;">
+                                <div class="placeholder"></div>
+                                <a>校园动态</a>
+                                <span class="more"><a href="http://localhost/yitian/index.php/home/index/cat/catid/{$article['校园动态']['id']}">
+                                    更多&gt;</a>
+            </span>
+                            </div>
+                            <TR>
+                                <TD height="10" class="mytd1">
+                                    <TABLE width="280" align="left" class="t5" border="0" cellspacing="0"
+                                           cellpadding="0">
+                                        <TBODY>
+                                        <volist name="article['学校新闻']['content']" id="news" offset="0" length='10'>
+                                        <TR>
+                                            <TD width="12" height="19" align="center"><IMG src="__PUBLIC__/img/x.gif">
+                                            </TD>
+                                            <TD height="25" class="gg"><A title="{$news.title}"
+                                                                          href="http://localhost/yitian/index.php/home/index/detail/newsid/{$news.news_id}"
+                                                                          target="_self">{$news.title}...</A></TD></TR>
+                                        </volist>
+                                      </TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+
+
+
+
+            <!--底部信息栏-->
+<include file="footer" />
+
+

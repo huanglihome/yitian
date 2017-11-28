@@ -1,0 +1,182 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <title>权限列表</title>
+    <meta name="keywords" content="{:F('WEB_NAME')}后台">
+    <meta name="description" content="{:F('WEB_NAME')}后台是由逸天科技的faling研发">
+
+    <link rel="shortcut icon" href="favicon.ico"> <link href="__PUBLIC__/css/bootstrap.min.css?v=3.3.5" rel="stylesheet">
+    <link href="__PUBLIC__/css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+    <link href="__PUBLIC__/css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="__PUBLIC__/css/animate.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/css/style.min.css?v=4.1.0" rel="stylesheet"><base target="_blank">
+
+</head>
+
+<body class="gray-bg">
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>权限列表</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="table_basic.html#">
+                                <i class="fa fa-wrench"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-user">
+                                <li><a target="_self" data-toggle="modal" class="btn btn-primary" href="#modal-form">添加权限</a>
+                                </li>
+                            </ul>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+						
+                    </div>
+                    <div class="ibox-content">
+                        <div class="row">
+                            <div class="col-sm-9">
+							</div>
+                            <div class="col-sm-3">
+                                <div class="input-group">
+                                    <input type="text" placeholder="请输入关键词" class="input-sm form-control"> <span class="input-group-btn">
+                                        <button type="button" class="btn btn-sm btn-primary"> 搜索</button> </span>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="table-responsive" action="{:U('ChangeUserRule')}" method="post" target="_self">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+
+                                        <th></th>
+                                        <th>ID</th>
+										<th>权限名</th>
+                                        <th>描述</th>
+                                        <th>创建时间</th>
+                                        <th>修改时间</th>
+										<th>修改</th>
+										<th>删除</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+								<volist name="rulelist" id="rule">
+                                    <tr>
+                                        <td>
+                                            <input type="text" name="id" value="{$userid}" hidden>
+										<in name="rule['rule_id']" value="$userrule">
+                                            <input type="checkbox" checked class="i-checks" name="ruleid[]" value="{$rule.rule_id}">
+											<else />
+											<input type="checkbox" class="i-checks" name="ruleid[]" value="{$rule.rule_id}">
+											</in>
+                                        </td>
+                                        <td>{$rule.rule_id}</td>
+                                        <td>{$rule.rule_name}
+                                        </td>
+                                        <td>{$rule.rule_descript}</td>
+                                        <td>{$rule.create_time}</td>
+                                        <td>{$rule.update_time}
+                                        </td>
+                                        <td><a data-toggle="modal" href="#modal-form1" target="_self" onclick="changetext({$rule.rule_id},'{$rule.rule_name}','{$rule.rule_descript}')"><i class="fa fa-wrench "></i></a></td>
+										<td> <a target="_self" href="{:U('/admin/rule/deleteRule',array('ruleid' => $rule['rule_id']))}"><i class="fa fa-times"></i></a></td>
+                                    </tr>
+									</volist>
+                                    
+                                </tbody>
+                            </table>
+                            <input type="submit" value="保存">
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="modal-form" class="modal fade" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                            <div class="col-sm-12 b-r">
+                                <h3 class="m-t-none m-b">添加</h3>
+
+                                <p>请添加权限</p>
+                                <form role="form" action="{:U('/admin/rule/addRule')}" method="POST" target="_self">
+                                    <div class="form-group">
+                                        <label>权限名：</label>
+                                        <input type="text" placeholder="请输入权限名" class="form-control" name="rulename">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>权限描述：</label>
+                                        <input type="text" placeholder="请输入权限描述" class="form-control" name="ruledescript">
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-sm btn-primary pull-right m-t-n-xs" type="submit"><strong>保存</strong>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="modal-form1" class="modal fade" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-12 b-r">
+                            <h3 class="m-t-none m-b">修改</h3>
+
+                            <p>请修改权限</p>
+                            <form role="form" action="{:U('/admin/rule/changeRule')}" method="POST" target="_self">
+                                <input type="hidden" id="ruleid" name="ruleid">
+                                <div class="form-group">
+                                    <label>权限名：</label>
+                                    <input type="text" placeholder="请输入权限名" class="form-control" name="rulename" id="rulename">
+                                </div>
+                                <div class="form-group">
+                                    <label>权限描述：</label>
+                                    <input type="text" placeholder="请输入权限描述" class="form-control" name="ruledescript" id="ruledescript">
+                                </div>
+                                <div>
+                                    <button class="btn btn-sm btn-primary pull-right m-t-n-xs" type="submit"><strong>保存</strong>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="__PUBLIC__/js/jquery.min.js?v=2.1.4"></script>
+    <script src="__PUBLIC__/js/bootstrap.min.js?v=3.3.5"></script>
+    <script src="__PUBLIC__/js/plugins/peity/jquery.peity.min.js"></script>
+    <script src="__PUBLIC__/js/content.min.js?v=1.0.0"></script>
+    <script src="__PUBLIC__/js/plugins/iCheck/icheck.min.js"></script>
+    <script src="__PUBLIC__/js/demo/peity-demo.min.js"></script>
+    <script>
+        $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green",})});
+        function changetext(menuid,menuname,menudescript){
+            $("#ruleid").val(menuid);
+            $("#rulename").val(menuname);
+            $("#ruledescript").val(menudescript);
+        }
+    </script>
+    <script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+</body>
+
+</html>

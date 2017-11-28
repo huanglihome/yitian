@@ -1,0 +1,21 @@
+[ 2017-10-31T11:40:27+08:00 ] ::1 /yitian/index.php/admin/user/text
+ERR: 非法操作:text
+
+[ 2017-10-31T11:47:32+08:00 ] ::1 /yitian/index.php/Admin/Index/ShowData.html
+ERR: Think\Model:getAllCount方法不存在！
+
+[ 2017-10-31T16:42:33+08:00 ] ::1 /yitian/index.php/Admin/Index/ShowData.html
+ERR: Think\Model:getAllnewCountnum方法不存在！
+
+[ 2017-10-31T16:54:07+08:00 ] ::1 /yitian/index.php/Admin/Index/widgets.html
+ERR: 非法操作:widgets
+
+[ 2017-10-31T22:56:03+08:00 ] ::1 /yitian/index.php/Admin/User/deleteUser/id/12.html
+ERR: Call to a member function where() on string
+
+[ 2017-10-31T22:57:07+08:00 ] ::1 /yitian/index.php/Admin/User/deleteUser/id/12.html
+ERR: Call to a member function where() on string
+
+[ 2017-10-31T22:58:54+08:00 ] ::1 /yitian/index.php/Admin/User/deleteUser/id/12.html
+ERR: Call to a member function where() on string
+

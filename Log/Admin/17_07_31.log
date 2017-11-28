@@ -1,0 +1,39 @@
+[ 2017-07-31T00:24:45+08:00 ] ::1 /yitian/index.php/Admin/News/addNew.html
+ERR: 1364:Field 'news_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `cms_news_content` (`content`,`create_time`,`update_time`) VALUES ('&lt;p&gt;测试&lt;br&gt;&lt;/p&gt;','2017','2017')
+
+[ 2017-07-31T00:33:16+08:00 ] ::1 /yitian/index.php/admin/news/getNewsList.html?v=4.0
+ERR: syntax error, unexpected '{', expecting ',' or ')'
+
+[ 2017-07-31T00:55:25+08:00 ] ::1 /yitian/index.php/admin/news/getNewsList.html?v=4.0
+ERR: syntax error, unexpected ')', expecting ']'
+
+[ 2017-07-31T00:55:47+08:00 ] ::1 /yitian/index.php/admin/news/getNewsList.html?v=4.0
+ERR: syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2017-07-31T00:58:24+08:00 ] ::1 /yitian/index.php/admin/news/getNewsList.html?v=4.0
+ERR: syntax error, unexpected '"'
+
+[ 2017-07-31T00:59:18+08:00 ] ::1 /yitian/index.php/admin/news/getNewsList.html?v=4.0
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2017-07-31T00:59:58+08:00 ] ::1 /yitian/index.php/admin/news/getNewsList.html?v=4.0
+ERR: syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2017-07-31T01:07:00+08:00 ] ::1 /yitian/index.php/admin/news/getNewsList.html?v=4.0
+ERR: XML标签语法错误 : name="menu.menu_id" value={$new.menu_id}
+
+[ 2017-07-31T01:07:21+08:00 ] ::1 /yitian/index.php/admin/news/getNewsList.html?v=4.0
+ERR: syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2017-07-31T12:02:22+08:00 ] ::1 /yitian/index.php/admin/user/OutLogin.html
+ERR: 非法操作:OutLogin
+
+[ 2017-07-31T12:34:22+08:00 ] ::1 /yitian/index.php/Admin/User/ChangeUserRule.html
+ERR: 1062:Duplicate entry '2' for key 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_user` SET `user_id`='2',`realname`='周叶飞',`head_portrait`='',`jurisdiction`='1',`qq_number`='1233456',`phone_number`='234234234',`email`='2342342@qq.com',`lastlogin_time`='2017-06-06 16:20:27',`lastlogin_ip`='192.168.2.1',`update_time`='2017-06-09 16:20:40',`status`='-1' WHERE `user_id` = 11
+
+[ 2017-07-31T14:38:59+08:00 ] ::1 /yitian/index.php/Admin/User/ChangeUserRule.html
+ERR: 1062:Duplicate entry '2' for key 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_user` SET `user_id`='2',`realname`='周叶飞',`head_portrait`='',`jurisdiction`='1,2',`qq_number`='1233456',`phone_number`='234234234',`email`='2342342@qq.com',`lastlogin_time`='2017-06-06 16:20:27',`lastlogin_ip`='192.168.2.1',`update_time`='2017-06-09 16:20:40',`status`='-1' WHERE `user_id` = 11
+

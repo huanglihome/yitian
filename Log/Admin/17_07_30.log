@@ -1,0 +1,73 @@
+[ 2017-07-30T00:08:26+08:00 ] ::1 /yitian/index.php/admin/upload/kindUpload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 20 行.
+
+[ 2017-07-30T00:08:53+08:00 ] ::1 /yitian/index.php/admin/upload/kindUpload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 20 行.
+
+[ 2017-07-30T00:16:35+08:00 ] ::1 /yitian/index.php/admin/upload/kindUpload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-07-30T00:17:51+08:00 ] ::1 /yitian/index.php/admin/upload/kindUpload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-07-30T00:23:44+08:00 ] ::1 /yitian/index.php/admin/upload/kindUpload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-07-30T00:30:46+08:00 ] ::1 /yitian/index.php/admin/upload/kindUpload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-07-30T00:32:36+08:00 ] ::1 /yitian/index.php/admin/upload/kindUpload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-07-30T10:50:51+08:00 ] ::1 /yitian/index.php/admin/news/showChangePage?newsid=29
+ERR: 1052:Column 'news_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `cms_news` INNER JOIN cms_news_content on cms_news.news_id = cms_news_content.news_id  WHERE `news_id` = '29' LIMIT 1  
+
+[ 2017-07-30T10:52:42+08:00 ] ::1 /yitian/index.php/admin/news/showChangePage?newsid=29
+ERR: 1054:Unknown column 'News.news_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `cms_news` INNER JOIN cms_news_content on cms_news.news_id = cms_news_content.news_id  WHERE News.news_id = '29' LIMIT 1  
+
+[ 2017-07-30T23:49:00+08:00 ] ::1 /yitian/index.php/admin/menu/addMenu.html
+ERR: 1292:Incorrect datetime value: '2017201720172017-JulJul-SunSun 2323:JulJul:thth' for column 'create_time' at row 1
+ [ SQL语句 ] : INSERT INTO `cms_menu` (`menu_name`,`menu_descript`,`status`,`create_time`) VALUES ('党部建设','党部建设','1','2017201720172017-JulJul-SunSun 2323:JulJul:thth')
+

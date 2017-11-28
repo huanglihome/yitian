@@ -1,0 +1,6 @@
+[ 2017-07-05T11:20:34+08:00 ] ::1 /yitian/index.php/Admin/User/ShowRuleList/id/8.html
+ERR: Too few arguments to function dump(), 0 passed in F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\UserController.class.php on line 230 and at least 1 expected
+
+[ 2017-07-05T11:43:25+08:00 ] ::1 /yitian/index.php/Admin/User/ShowRuleList/id/2.html
+ERR: XML标签语法错误 : name=$rule['rule_id'] value=$userrule
+

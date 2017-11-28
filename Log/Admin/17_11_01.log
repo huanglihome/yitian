@@ -1,0 +1,196 @@
+[ 2017-11-01T17:21:54+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: file F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 37 行.
+NOTIC: [8] Undefined index: file F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 37 行.
+
+[ 2017-11-01T17:22:19+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: file F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 37 行.
+NOTIC: [8] Undefined index: file F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 37 行.
+
+[ 2017-11-01T17:23:23+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: file F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 37 行.
+NOTIC: [8] Undefined index: file F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 37 行.
+
+[ 2017-11-01T17:25:09+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-11-01T17:28:35+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-11-01T17:29:40+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-11-01T17:33:44+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-11-01T17:35:14+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-11-01T17:36:08+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-11-01T17:40:16+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-11-01T17:41:58+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-11-01T18:00:39+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `cms_files` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cms_files` (`name`,`type`,`path`,`updata_time`,`author`) VALUES ('59f99b4794e1f.jpg','image/jpeg','/upload/2017/11/01/59f99b4794e1f.jpg','2017-11-01 18:00:39','ceshi') [ RunTime:0.0910s ]
+
+[ 2017-11-01T22:36:21+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `cms_files` [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_files` (`name`,`type`,`path`,`updata_time`,`author`) VALUES ('59f9dbe54371d.png','image/png','/upload/2017/11/01/59f9dbe54371d.png','2017-11-01 22:36:21','ceshi') [ RunTime:0.0956s ]
+
+[ 2017-11-01T22:39:02+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `cms_files` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cms_files` (`name`,`type`,`path`,`updata_time`,`author`) VALUES ('59f9dc86a4ced.jpg','image/jpeg','/upload/2017/11/01/59f9dc86a4ced.jpg','2017-11-01 22:39:02','ceshi') [ RunTime:0.1034s ]
+
+[ 2017-11-01T22:41:48+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `cms_files` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cms_files` (`name`,`type`,`path`,`updata_time`,`author`) VALUES ('59f9dd2c70066.png','image/png','/upload/2017/11/01/59f9dd2c70066.png','2017-11-01 22:41:48','ceshi') [ RunTime:0.0850s ]
+
+[ 2017-11-01T22:43:28+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `cms_files` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cms_files` (`name`,`type`,`path`,`updata_time`,`author`) VALUES ('59f9dd90d77df.png','image/png','/upload/2017/11/01/59f9dd90d77df.png','2017-11-01 22:43:28','ceshi') [ RunTime:0.0420s ]
+
+[ 2017-11-01T22:43:40+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `cms_files` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cms_files` (`name`,`type`,`path`,`updata_time`,`author`) VALUES ('59f9dd9c8336f.png','image/png','/upload/2017/11/01/59f9dd9c8336f.png','2017-11-01 22:43:40','ceshi') [ RunTime:0.0430s ]
+
+[ 2017-11-01T22:47:46+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `cms_files` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cms_files` (`name`,`type`,`path`,`updata_time`,`author`) VALUES ('59f9de9256000.png','image/png','/upload/2017/11/01/59f9de9256000.png','2017-11-01 22:47:46','ceshi') [ RunTime:0.0712s ]
+
+[ 2017-11-01T22:49:43+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `cms_files` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cms_files` (`name`,`type`,`path`,`updata_time`,`author`) VALUES ('59f9df0770a90.png','image/png','/upload/2017/11/01/59f9df0770a90.png','2017-11-01 22:49:43','ceshi') [ RunTime:0.0660s ]
+
+[ 2017-11-01T23:00:01+08:00 ] ::1 /yitian/index.php/admin/index/form_avatar.html?v=4.0
+ERR: 非法操作:form_avatar
+

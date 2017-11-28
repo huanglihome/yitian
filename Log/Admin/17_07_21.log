@@ -1,0 +1,28 @@
+[ 2017-07-21T11:05:40+08:00 ] ::1 /yitian/index.php/Admin/User/ShowRuleList/id/2.html
+ERR: syntax error, unexpected ')', expecting ',' or ';'
+
+[ 2017-07-21T11:08:42+08:00 ] ::1 /yitian/index.php/admin/rule/changeRulePage/ruleid/1.html
+ERR: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+
+[ 2017-07-21T11:19:28+08:00 ] ::1 /yitian/index.php/admin/rule/changeRulePage/ruleid/1.html
+ERR: 模板不存在:./webApp/Admin/View/Rule/changeRulePage.html
+
+[ 2017-07-21T11:49:01+08:00 ] ::1 /yitian/index.php/admin/rule/addRule.html
+ERR: Call to a member function add() on array
+
+[ 2017-07-21T11:55:01+08:00 ] ::1 /yitian/index.php/admin/rule/deleteRule/ruleid/2.html
+ERR: 1264:Out of range value for column 'status' at row 1
+ [ SQL语句 ] : UPDATE `cms_rule` SET `status`='-1' WHERE `rule_id` = 2
+
+[ 2017-07-21T12:00:03+08:00 ] ::1 /yitian/index.php/admin/rule/deleteRule/ruleid/2.html
+ERR: 1264:Out of range value for column 'status' at row 1
+ [ SQL语句 ] : UPDATE `cms_rule` SET `status`='-1' WHERE `rule_id` = 2
+
+[ 2017-07-21T12:03:27+08:00 ] ::1 /yitian/index.php/admin/rule/deleteRule/ruleid/2.html
+ERR: 1264:Out of range value for column 'status' at row 1
+ [ SQL语句 ] : UPDATE `cms_rule` SET `status`='-1' WHERE `rule_id` = 2
+
+[ 2017-07-21T12:04:35+08:00 ] ::1 /yitian/index.php/admin/rule/deleteRule/ruleid/2.html
+ERR: 1264:Out of range value for column 'status' at row 1
+ [ SQL语句 ] : UPDATE `cms_rule` SET `status`='-1' WHERE `rule_id` = 2
+

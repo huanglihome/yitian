@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>文章列表</title>
+    <meta name="keywords" content="{:F('WEB_NAME')}后台">
+    <meta name="description" content="{:F('WEB_NAME')}后台是由逸天科技的faling研发">
+
+    <link rel="shortcut icon" href="favicon.ico"> <link href="__PUBLIC__/css/bootstrap.min.css?v=3.3.5" rel="stylesheet">
+    <link href="__PUBLIC__/css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+    <link href="__PUBLIC__/css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="__PUBLIC__/css/animate.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/css/style.min.css?v=4.1.0" rel="stylesheet"><base target="_blank">
+    <style>
+        .row{
+            width: 100%;
+        }
+        </style>
+</head>
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>文章列表</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="ibox-content">
+                    <form class="table-responsive" action="{:U('getNewsList')}" method="post" target="_self">
+                                <div class="form-group row">
+                                    <div class="col-sm-2">
+                                        <div class="input-group">
+                                            <a type="button"  class="btn btn-primary" target="_self" href="{:U('/admin/news/addNew')}"> 添加</a>
+                                            <a type="button"  style="margin-left: 10px" class="btn btn-primary" target="_self" href="{:U('/admin/news/getNewsList',array('status' => -1))}"> 回收站</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <div class="in>
+ -group">
+                                            <select class="form-control m-b" name="menuid">
+                                                <option value="0">未选择</option>
+                                                <foreach name="menulist" item="menu">
+                                                    <if condition="$menuid eq $menu.menu_id">
+                                                        <option value="{$menu.menu_id}" selected>{$menu.menu_name}</option>
+                                                        <else />
+                                                        <option value="{$menu.menu_id}">{$menu.menu_name}</option>
+                                                    </if>
+                                                </foreach>
+                                            </select> <span class="input-group-btn"></span>
+                                        </div>
+                                    </div>
+                            <div class="col-sm-3">
+                                <div class="input-group">
+                                    <input type="text" placeholder="请输入关键词" class="input-sm form-control" name="title"> <span class="input-group-btn">
+                                        <button type="submit" class="btn btn-sm btn-primary"> 搜索</button> </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th></th>
+                                <th>ID</th>
+                                <th>标题</th>
+                                <th>描述</th>
+                                <th>类型</th>
+                                <th>作者</th>
+                                <if condition="$newslist[0]['status'] eq -1">
+                                <th>还原</th>
+                                    <else />
+                                    <th>修改</th>
+                                    </if>
+                                <th>删除</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <volist name="newslist" id="new">
+                                <tr>
+                                    <td>
+                                            <input type="checkbox" class="i-checks" name="newsid" value="{$new.news_id}">
+                                    </td>
+                                    <td>{$new.news_id}</td>
+                                    <td>{$new.title}
+                                    </td>
+                                    <td>{$new.description}</td>
+                                    <volist name="menulist" id="menu">
+                                        <eq name="menu.menu_id" value="$new.menu_id">
+                                            <td>{$menu.menu_name}</td>
+                                        </eq>
+                                    </volist>
+                                    <td>{$new.username}
+                                    </td>
+                                    <if condition="$new.status eq -1">
+                                        <td><a data-toggle="modal" href="{:U('/admin/news/resetNewsStatus',array('newsid' => $new['news_id']))}" target="_self" ><i class="fa fa-wrench "></i></a></td>
+                                        <else />
+                                        <td><a data-toggle="modal" href="{:U('/admin/news/showChangePage',array('newsid' => $new['news_id']))}" target="_self" ><i class="fa fa-wrench "></i></a></td>
+                                    </if>
+                                    <td> <a target="_self" href="{:U('/admin/news/deleteNews',array('newsid' => $new['news_id']))}"><i class="fa fa-times"></i></a></td>
+                                </tr>
+                            </volist>
+
+                            </tbody>
+                        </table>
+                    </form>
+                    <div class="row">
+                    <div class="col-sm-2">
+                    <div class="input-group">
+                        <select class="form-control m-b" id="positionid">
+                            <option value="">未选择</option>
+                            <foreach name="positionlist" item="position">
+                                <option value="{$position.id}">{$position.name}</option>
+                            </foreach>
+                        </select> <span class="input-group-btn">
+                    </div>
+                </div>
+                    <div class="col-sm-6">
+                    <div class="input-group">
+                        <button type="button" class="btn btn-sm btn-primary" onclick="pusharticle()"> 推送</button> </span>
+                    </div>
+                </div>
+                    </div>
+                    {$page}
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="__PUBLIC__/js/jquery.min.js?v=2.1.4"></script>
+<script src="__PUBLIC__/js/bootstrap.min.js?v=3.3.5"></script>
+<script src="__PUBLIC__/js/plugins/peity/jquery.peity.min.js"></script>
+<script src="__PUBLIC__/js/content.min.js?v=1.0.0"></script>
+<script src="__PUBLIC__/js/plugins/iCheck/icheck.min.js"></script>
+<script src="__PUBLIC__/js/demo/peity-demo.min.js"></script>
+<script>
+    $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green",})});
+    function pusharticle(){
+        var newid = [];
+        $("input:checkbox[name='newsid']:checked").each(function(){
+            newid.push($(this).val());
+        })
+        if(newid == "") {
+            parent.layer.alert('请选择要推送的文章');
+        }else if($("#positionid").val() == ""){
+            parent.layer.alert('请选择要推送哪个推送位');
+        }else {
+            $.post("http://localhost/yitian/index.php/admin/PositionContent/push",{newsid:newid,positionid:$("#positionid").val()},function(result){
+                console.log(result);
+                if(result.status == 200){
+                    parent.layer.alert('推送成功');
+                }else{
+                   parent.layer.alert("推送失败" + result.message);
+                }
+            });
+        }
+    }
+</script>
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+</body>
+
+</html>

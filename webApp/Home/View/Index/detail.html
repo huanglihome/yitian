@@ -1,0 +1,42 @@
+<include file="Index/header" />
+
+
+
+<!--文章内容-->
+
+
+<TABLE width="963" align="center" border="0" cellspacing="0" cellpadding="0">
+    <TBODY>
+    <TR>
+        <TD height="42" background="img/ejtop.gif"></TD></TR>
+    <TR>
+        <TD bgcolor="#ffffff">
+            <TABLE width="100%" border="0" cellspacing="0" cellpadding="0">
+                <TBODY>
+                <TR>
+                    <TD align="center">
+                        <TABLE width="700" border="0" cellspacing="0" cellpadding="0">
+                            <TBODY>
+                            <TR>
+                                <TD height="50" align="center"><A name="top" id="top"></A>
+                                    <DIV id="title" cmsid="35947517">
+                                        <P>{$articleinfo.title}</P></DIV></TD></TR>
+                            <TR height="60" valign="top">
+                                <TD align="center">
+                                    <P style="margin-top: 5px;">发表时间：{$articleinfo.create_time}<SPAN
+                                            style="margin-left: 8px;">文章阅读数：</SPAN><FONT color="red"><SPAN
+                                            id="readcount"></SPAN>{$articleinfo.count}
+                                        <!--<SCRIPT>-->
+                                            <!--$.ajax({type:'post',url:'/doc/readCount.do?id=65141',timeout:2000,success:function(ret){$('#readcount').html($.trim(ret))},error:function(ret){$.ajax({type:'post',url:'/ecms_external?method=syncOfflineVisitCount',data:'type=doc&requestUrl='+location.href,timeout:2000,success:function(ret){$('#readcount').html(ret);},error:function(){$('#readcount').html(0);}});}});-->
+                                        <!--</SCRIPT>-->
+                                    </FONT></P></TD></TR>
+                            <TR>
+                                <TD class="toolBody" valign="top">
+                                    {$articleinfo.content}
+                                    </TD></TR>
+                           </TBODY></TABLE><BR></TD></TR></TBODY></TABLE>
+
+
+            <!--底部信息栏-->
+
+            <include file="footer" />

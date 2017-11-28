@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>权限列表</title>
+    <meta name="keywords" content="{:F('WEB_NAME')}后台">
+    <meta name="description" content="{:F('WEB_NAME')}后台是由逸天科技的faling研发">
+
+    <link rel="shortcut icon" href="favicon.ico"> <link href="__PUBLIC__/css/bootstrap.min.css?v=3.3.5" rel="stylesheet">
+    <link href="__PUBLIC__/css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+    <link href="__PUBLIC__/css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="__PUBLIC__/css/animate.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/css/style.min.css?v=4.1.0" rel="stylesheet"><base target="_blank">
+    <style>
+        .row{
+            width:40%;
+            display: block;
+            margin: 0 auto;
+        }
+        </style>
+</head>
+
+
+<body class="gray-bg">
+                    <div class="wrapper wrapper-content animated fadeInRight">
+                        <div class="row">
+                            <div class="col-sm-6 b-r">
+                                <form role="form" action="{:U('changeRule')}" method="POST" target="_self">
+                                        <input type="hidden" value="{$ruleinfo.rule_id}" name="ruleid">
+                                    <div class="form-group">
+                                        <label>权限名：</label>
+                                        <input type="text" value="{$ruleinfo.rule_name}" class="form-control" name="rulename">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>权限描述：</label>
+                                        <input type="text" value="{$ruleinfo.rule_descript}" class="form-control" name="ruledescript">
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-sm btn-primary pull-right m-t-n-xs" type="submit"><strong>保存</strong>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+<script src="__PUBLIC__/js/jquery.min.js?v=2.1.4"></script>
+<script src="__PUBLIC__/js/bootstrap.min.js?v=3.3.5"></script>
+<script src="__PUBLIC__/js/plugins/peity/jquery.peity.min.js"></script>
+<script src="__PUBLIC__/js/content.min.js?v=1.0.0"></script>
+<script src="__PUBLIC__/js/plugins/iCheck/icheck.min.js"></script>
+<script src="__PUBLIC__/js/demo/peity-demo.min.js"></script>
+<script>
+    $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green",})});
+</script>
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+</body>
+
+</html>

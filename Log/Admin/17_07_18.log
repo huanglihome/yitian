@@ -1,0 +1,9 @@
+[ 2017-07-18T10:44:03+08:00 ] ::1 /yitian/index.php/Admin/User/ShowRuleListAction
+ERR: 非法操作:ShowRuleListAction
+
+[ 2017-07-18T10:44:58+08:00 ] ::1 /yitian/index.php/Admin/User/ShowRuleListAction
+ERR: 非法操作:ShowRuleListAction
+
+[ 2017-07-18T10:46:19+08:00 ] ::1 /yitian/index.php/Admin/User/ShowUserListAction
+ERR: 非法操作:ShowUserListAction
+

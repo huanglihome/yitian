@@ -1,0 +1,229 @@
+<include file="header" />
+            <!--<div cmsid="57727841"  style="width:100%;">
+     <iframe src="/jsp/login.jsp" frameborder=0 scrolling="no" style="width:100%;height:35px;border:0;"></iframe>
+     </div>
+     -->
+
+<TABLE width="963" align="center" border="0" cellspacing="0" cellpadding="0">
+    <TBODY>
+    <TR>
+        <TD height="42" background="img/ejtop.gif"></TD></TR>
+    <TR>
+        <TD bgcolor="#ffffff">
+            <TABLE width="963" border="0" cellspacing="0" cellpadding="0">
+                <TBODY>
+                <TR>
+                    <TD width="648" class="tdborder">
+
+                        <!--文章目录-->
+
+
+                        <TABLE width="648" border="0" cellspacing="0" cellpadding="0">
+                            <TBODY>
+                            <TR>
+                                <TD height="30" style="padding-left: 20px;"><A class="jls"
+                                                                               href="http://localhost/yitian/" target="_self">首页 </A><SPAN
+                                        class="STYLE5">&gt; {$menu.menu_name}</SPAN></TD></TR>
+                            <TR>
+                                <TD> ﻿
+                                    <DIV class="img_main_content">
+                                        <UL>
+                                            <volist name="newslist" id="news">
+                                            <LI><SPAN class="img_time">{$news.create_time}</SPAN><SPAN class="img_title"><IMG
+                                                    src="img/x.gif">&nbsp;&nbsp;<A href="http://localhost/yitian/index.php/home/index/detail/newsid/{$news.news_id}">{$news.title}......</A></SPAN></LI>
+                                            </volist>
+
+                                            </UL></DIV>
+                                   {$page}
+                                    <TABLE width="620" align="center" border="0" cellspacing="0"
+                                           cellpadding="0">
+                                        <TBODY>
+
+
+
+                                        <STYLE>
+                                            .img_main_content ul li{
+                                                height:30px;
+                                                line-height:30px;
+                                                padding-left:20px;
+                                            }
+                                            .img_main_content ul li a{
+                                                color:#033333;
+                                                font-size:14px;
+                                            }
+                                            .img_time{
+                                                float:right;
+                                                padding-right:25px;
+                                                color:#999999;
+                                            }
+
+
+
+                                            .ecms_pag {
+                                                margin:0 auto;
+                                                width:650px;
+                                            }
+                                            .ecms_pagination {
+                                                padding: 2px;
+                                                margin-top:30px;
+                                                height:22px;
+                                                line-height:22px;
+                                                float:left;
+                                                padding-bottom:5px;
+                                            }
+                                            .ecms_pagination ul {
+                                                margin: 0px;
+                                                padding: 0px;
+                                                text-align: left;
+                                                font-size: 12px;
+                                            }
+                                            .ecms_drop {
+                                                padding-left:5px;
+                                            }
+                                            .ecms_pagination li {
+                                                padding-bottom: 1px;
+                                                display: inline;
+                                                img-style-type: none;
+                                            }
+                                            .ecms_pagination a {
+                                                padding: 4px 8px;
+                                                border: 1px solid #e5e5e5;
+                                                color: #666666;
+                                                text-decoration: none;
+                                            }
+                                            .ecms_pagination a:visited {
+                                                padding: 4px 8px;
+                                                background-color:#e5e5e5;
+                                                color: rgb(46, 106, 177);
+                                                text-decoration: none;
+                                                border:1px solid #e5e5e5;
+                                            }
+                                            .ecms_pagination a:hover {
+                                                color: rgb(0, 0, 0);
+                                                background-color:#e5e5e5;
+                                            }
+                                            .ecms_pagination a:active {
+                                                border: 1px solid #e5e5e5;
+                                                color: rgb(0, 0, 0);
+                                                background-color: lightyellow;
+                                            }
+                                            .ecms_pagination li.ecms_currentpage {
+                                                margin-left:2px;
+                                                padding: 5px 8px;
+                                                color: rgb(255, 255, 255);
+                                                font-weight: bold;
+                                                background-color: #cf0000;
+                                            }
+                                            .ecms_pagination li.ecms_disablepage {
+                                                padding: 4px 8px;
+                                                border: 1px solid #e5e5e5;
+                                                color: rgb(146, 146, 146);
+                                            }
+                                            .ecms_pagination li.ecms_nextpage {
+                                                font-weight: bold;
+                                            }
+                                            * html .ecms_pagination li.ecms_currentpage {
+                                                padding-right: 0px;
+                                                margin-right: 5px;
+                                            }
+                                            * html .ecms_pagination li.ecms_disablepage {
+                                                padding-right: 0px;
+                                                margin-right: 5px;
+                                            }
+                                            .ecms_go {
+                                                padding: 2px;
+                                                margin-right:30px;
+                                                margin-top:30px;
+                                                height:22px;
+                                                line-height:22px;
+                                                float:right;
+                                                padding-bottom:5px;
+                                                font-size:12px;
+                                            }
+                                            .ecms_img_p6 {
+                                                padding:3px 7px;
+                                                border: 1px solid #e5e5e5;
+                                                color: #666666;
+                                                cursor:pointer;
+                                                text-decoration: none;
+                                            }
+                                            .ecms_jump_input {
+                                                width:30px;
+                                            }
+
+
+                                        </STYLE>
+
+                                        <SCRIPT>
+                                            function changeUrl() {
+                                                var url = $("#goToUrl").attr("href");
+                                                var num = $("#pageNum").val();
+                                                url = url.replace("1.", num + ".");
+                                                $("#goToUrl").attr("href", url);
+                                            }
+                                        </SCRIPT>
+
+                                        <!--侧边栏-->
+                                        </TBODY></TABLE></TD></TR>
+                            <TR>
+                                <TD>&nbsp;</TD></TR>
+                            <TR>
+                                <TD></TD></TR>
+                            <TR>
+                                <TD></TD></TR></TBODY></TABLE></TD>
+                    <TD valign="top">
+                        <TABLE width="310" border="0" cellspacing="0" cellpadding="0">
+                            <TBODY>
+                            <TR>
+                                <TD><IMG width="291" height="37" src="__PUBLIC__/img/ql.gif"></TD></TR>
+                            <TR>
+                                <TD>
+                                    <STYLE type="text/css">
+                                        <!--
+                                        body {
+                                            margin-left: 0px;
+                                            margin-top: 0px;
+                                            margin-right: 0px;
+                                            margin-bottom: 0px;
+                                        }
+                                        -->
+                                    </STYLE>
+
+                                    <TABLE width="300" height="30" border="0" cellspacing="2"
+                                           cellpadding="0">
+                                        <TBODY>
+
+                                        <TR>
+                                            <volist  name="position['快速通道']['content']" id="tongdao" offset="0" length='3'>
+                                                <TD class="tdborder">
+                                                    <DIV align="center" cmsid="68404189"><A class="l1" href="{$tongdao.url}"
+                                                                                            target="_self">{$tongdao.title}</A></DIV></TD>
+
+                                            </volist>
+                                        </TR>
+                                        <TR>
+                                            <volist  name="position['快速通道']['content']" id="tongdao" offset="3" length='3'>
+                                                <TD class="tdborder">
+                                                    <DIV align="center" cmsid="68404189"><A class="l1" href="{$tongdao.url}"
+                                                                                            target="_self">{$tongdao.title}</A></DIV></TD>
+                                            </volist>
+                                        </TR>
+
+                                        </TBODY></TABLE></TD></TR>
+                            </TBODY></TABLE></TD></TR></TBODY></TABLE>
+            <TABLE width="962" border="0" cellspacing="0" cellpadding="0">
+                <TBODY>
+                <TR>
+                    <TD height="30"></TD></TR>
+                <TR>
+                    <TD><IMG width="962" height="4" alt="" src="img/c1_21.gif"></TD></TR></TBODY></TABLE></TD></TR>
+    <TR>
+        <TD bgcolor="#ffffff">
+            <STYLE type="text/css">
+                <!--
+                .STYLE1 {color: #7c7c7c}
+                -->
+            </STYLE>
+
+            <!--底部信息栏-->
+            <include file="footer" />

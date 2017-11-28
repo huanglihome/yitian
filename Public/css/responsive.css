@@ -1,0 +1,81 @@
+@media all and (max-width:992px)
+{
+header {
+	position: relative; background-color: rgba(47, 80, 157, 0.9);
+}
+.footer-top-warper .part-r .foot-item {
+	margin-top: 1.5em;
+}
+}
+@media all and (max-width:768px)
+{
+#menu .navbar-nav.nav > li {
+	width: 100%;
+}
+.nav-warp .container {
+	width: 100%;
+}
+#menu .navbar-nav.nav {
+	margin: 0px auto; padding: 10px; width: 90%; -ms-overflow-y: scroll; max-height: 350px;
+}
+#conhead .head-bg {
+	height: 300px;
+}
+.bg-title {
+	top: 45%;
+}
+.flexslider .meta h1 {
+	font-size: 1.3em;
+}
+.flexslider .meta h2 {
+	font-size: 1.2em;
+}
+.flexslider .meta p {
+	font-size: 1em;
+}
+.lxwm .ul-n {
+	margin-top: 15px;
+}
+#menu .navbar-nav.nav > li .nav-warp {
+	padding: 0.5em 0px; visibility: visible; position: relative; z-index: 0; opacity: 1; background-color: rgba(12, 27, 64, 0.5);
+}
+.nav-warp .img-responsive {
+	display: none;
+}
+#menu .navbar-nav.nav > li .nav-warp [class*='col-'] ul > li {
+	padding: 3px 12px; border-right-color: currentColor; border-right-width: 0px; border-right-style: none; float: left;
+}
+.img-item .img-item-warp > a > img {
+	width: 100%; height: auto;
+}
+}
+@media all and (max-width:1200px)
+{
+header {
+	width: 100%;
+}
+.flexslider {
+	width: 100%;
+}
+}
+@media all and (min-width:1200px)
+{
+.content-con .container {
+	width: 1200px; padding-right: 0px; padding-left: 0px;
+}
+.footer-top-warper .container {
+	width: 1200px; padding-right: 0px; padding-left: 0px;
+}
+.footer-mid-warper .container {
+	width: 1200px; padding-right: 0px; padding-left: 0px;
+}
+.footer-end-warper .container {
+	width: 1200px; padding-right: 0px; padding-left: 0px;
+}
+.yy.container {
+	width: 1200px; padding-right: 0px; padding-left: 0px;
+}
+.bg-warper {
+	width: 1200px;
+}
+}

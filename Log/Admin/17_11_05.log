@@ -1,0 +1,68 @@
+[ 2017-11-05T14:47:24+08:00 ] ::1 /yitian/index.php/admin/news/getNewsList.html?v=4.0
+ERR: syntax error, unexpected ')', expecting ',' or ';'
+
+[ 2017-11-05T15:26:01+08:00 ] ::1 /yitian/index.php/Admin/Menu/resetMenuStatus/menuid/1.html
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-11-05T15:26:25+08:00 ] ::1 /yitian/index.php/Admin/Menu/resetMenuStatus/menuid/2.html
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-11-05T15:26:56+08:00 ] ::1 /yitian/index.php/Admin/Menu/deleteMenu/menuid/1.html
+ERR: 1062:Duplicate entry '33' for key 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_news` SET `news_id`='33',`menu_id`='1',`title`='测试123123',`small_title`='测试123123',`title_font_color`=NULL,`thumb`='',`keywords`='测试123123',`description`='测试123123',`posids`='',`listorder`='0',`status`='-1',`copyfrom`=NULL,`username`='周叶飞',`create_time`='2017-07-31 00:32:06',`update_time`='2017-11-05 15:26:56',`count`='1' WHERE `menu_id` = 1
+
+[ 2017-11-05T15:29:05+08:00 ] ::1 /yitian/index.php/Admin/Menu/resetMenuStatus/menuid/1.html
+ERR: 1062:Duplicate entry '33' for key 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_news` SET `news_id`='33',`menu_id`='1',`title`='测试123123',`small_title`='测试123123',`title_font_color`=NULL,`thumb`='',`keywords`='测试123123',`description`='测试123123',`posids`='',`listorder`='0',`status`='1',`copyfrom`=NULL,`username`='周叶飞',`create_time`='2017-07-31 00:32:06',`update_time`='2017-11-05 15:29:05',`count`='1' WHERE `menu_id` = 1
+
+[ 2017-11-05T15:29:15+08:00 ] ::1 /yitian/index.php/Admin/Menu/deleteMenu/menuid/1.html
+ERR: 1062:Duplicate entry '33' for key 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_news` SET `news_id`='33',`menu_id`='1',`title`='测试123123',`small_title`='测试123123',`title_font_color`=NULL,`thumb`='',`keywords`='测试123123',`description`='测试123123',`posids`='',`listorder`='0',`status`='-1',`copyfrom`=NULL,`username`='周叶飞',`create_time`='2017-07-31 00:32:06',`update_time`='2017-11-05 15:29:15',`count`='1' WHERE `menu_id` = 1
+
+[ 2017-11-05T15:32:57+08:00 ] ::1 /yitian/index.php/admin/PositionContent/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('37')  [ RunTime:0.0000s ]
+NOTIC: [2] Declaration of Common\Model\PositionContentModel::add($data = Array) should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\PositionContentModel.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`,`update_time`) VALUES ('6','123123','','37','1','2017-11-05 15:32:57','2017-11-05 15:32:57') [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 49 行.
+
+[ 2017-11-05T15:33:14+08:00 ] ::1 /yitian/index.php/Admin/Position/delete/positionid/6.html
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-11-05T15:35:18+08:00 ] ::1 /yitian/index.php/Admin/Menu/resetMenuStatus/menuid/1.html
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-11-05T15:36:14+08:00 ] ::1 /yitian/index.php/Admin/Menu/deleteMenu/menuid/1.html
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-11-05T15:37:52+08:00 ] ::1 /yitian/index.php/Admin/Menu/resetMenuStatus/menuid/1.html
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-11-05T15:43:47+08:00 ] ::1 /yitian/index.php/Admin/Menu/resetMenuStatus/menuid/1.html
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-11-05T15:46:16+08:00 ] ::1 /yitian/index.php/admin/news/resetNewsStatus/newsid/34.html
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-11-05T15:57:36+08:00 ] ::1 /yitian/index.php/Admin/Position/%20resetPositionStatus/positionid/6.html
+ERR: 非法操作: resetPositionStatus
+
+[ 2017-11-05T17:39:26+08:00 ] ::1 /yitian/index.php/admin/upload/kindUpload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `cms_files` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cms_files` (`name`,`type`,`path`,`updata_time`,`author`) VALUES ('59fedc4e8217d.jpg','image/jpeg','/upload/2017/11/05/59fedc4e8217d.jpg','2017-11-05 17:39:26','ceshi') [ RunTime:0.1010s ]
+

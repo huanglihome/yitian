@@ -1,0 +1,22 @@
+[ 2017-09-17T13:50:03+08:00 ] ::1 /yitian/index.php/admin/Savedb/dumpmysql
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\SavedbController.class.php 第 17 行.
+
+[ 2017-09-17T13:50:16+08:00 ] ::1 /yitian/index.php/admin/PositionContent/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('33')  [ RunTime:0.0000s ]
+NOTIC: [2] Declaration of Common\Model\PositionContentModel::add($data = Array) should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\PositionContentModel.class.php 第 73 行.
+NOTIC: [2] Declaration of Common\Model\PositionContentModel::find($data) should be compatible with Think\Model::find($options = Array) F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\PositionContentModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`,`update_time`) VALUES ('7','测试123123','','33','1','2017-09-17 13:50:16','2017-09-17 13:50:16') [ RunTime:0.0450s ]
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 49 行.
+

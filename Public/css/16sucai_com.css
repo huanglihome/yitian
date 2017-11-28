@@ -1,0 +1,109 @@
+
+#menu ul li a{
+    text-align: center;
+    font-size: 15px;
+}
+#menu ul li a:hover{
+    background-color: #6e7aad;
+}
+
+.col-md-1{
+    font-size: 16px;
+    background-color: #2d3c7f;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.col-md-1:hover{
+    background-color: #6e7aad;
+}
+html {
+	margin: 0px; padding: 0px;
+}
+body {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+h6 {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+fieldset {
+	margin: 0px; padding: 0px;
+}
+legend {
+	margin: 0px; padding: 0px;
+}
+body {
+	font: 12px/normal Verdana, Arial, Helvetica, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+ul {
+	text-transform: capitalize; list-style-type: none;
+}
+li {
+	text-transform: capitalize; list-style-type: none;
+}
+.clear {
+	clear: both;
+}
+#menu {
+	background: url("../images/dht.jpg"); width: 990px; height: 35px;
+}
+#nav {
+	margin: 0px 75px 0px 55px; height: 35px; display: block;
+}
+#nav .jquery_out {
+	font: 13px/35px "Î¢ÈíÑÅºÚ"; text-align: center; color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-right-width: 0px; border-right-style: solid; float: left; display: block; font-size-adjust: none; font-stretch: normal;
+}
+#nav .jquery_out .smile {
+	padding-left: 1em;
+}
+#nav .jquery_inner {
+	margin-left: 16px;
+}
+#nav .jquery {
+	padding: 0px 2em; margin-right: 1px;
+}
+#nav .mainlevel {
+	width: 86px; border-right-color: rgb(255, 255, 255); border-right-width: 0px; border-right-style: solid; float: left;
+}
+#nav .mainlevel a {
+	padding: 0px; width: 86px; color: rgb(254, 255, 250); line-height: 35px; text-decoration: none; display: block;
+}
+#nav .mainlevel li a:hover {
+	background: url("../images/slide-panel_03.png") 0px 0px rgb(254, 255, 250); width: 170px; color: rgb(255, 255, 0); text-decoration: none; cursor: pointer;
+}
+#nav .mainlevel ul {
+	display: none; position: absolute;
+}
+#nav .mainlevel li {
+	background: rgb(46, 61, 128); width: 180px; height: 36px; line-height: 36px; border-top-color: rgb(255, 255, 255); border-top-width: 0px; border-top-style: solid;
+}
+#nav .mainlevel li a {
+	width: 170px; height: 28px; color: rgb(254, 255, 250); line-height: 28px; font-size: 13px; margin-left: 9px; border-bottom-color: rgb(153, 153, 153); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.lineunde {
+	padding: 0px; width: 170px;
+}

@@ -1,0 +1,140 @@
+[ 2017-08-12T14:53:52+08:00 ] ::1 /yitian/index.php/admin/position/index.html?v=4.0
+ERR: syntax error, unexpected '/', expecting '{'
+
+[ 2017-08-12T14:54:15+08:00 ] ::1 /yitian/index.php/admin/position/index.html?v=4.0
+ERR: Call to a member function where() on string
+
+[ 2017-08-12T14:55:06+08:00 ] ::1 /yitian/index.php/admin/position/index.html?v=4.0
+ERR: Call to a member function where() on string
+
+[ 2017-08-12T14:55:34+08:00 ] ::1 /yitian/index.php/admin/position/index.html?v=4.0
+ERR: Think\Model:M方法不存在！
+
+[ 2017-08-12T15:27:32+08:00 ] ::1 /yitian/index.php/Admin/Position/deleteMenu.html
+ERR: 非法操作:deleteMenu
+
+[ 2017-08-12T15:31:14+08:00 ] ::1 /yitian/index.php/Admin/Position/delete/positionid/6.html
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-12T15:33:14+08:00 ] ::1 /yitian/index.php/Admin/Position/delete/positionid/6.html
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-12T22:16:00+08:00 ] ::1 /yitian/index.php/admin/position/add.html
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-12T23:14:56+08:00 ] ::1 /yitian/index.php/admin/positioncontent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-08-12T23:16:18+08:00 ] ::1 /yitian/index.php/admin/positioncontent/add
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-08-12T23:19:04+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Common\functions.php 第 38 行.
+NOTIC: [2] Declaration of Common\Model\PositionContentModel::add($data = Array) should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\PositionContentModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0480s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\PositionContentModel.class.php 第 15 行.
+
+[ 2017-08-12T23:23:39+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Common\functions.php 第 38 行.
+NOTIC: [2] Declaration of Common\Model\PositionContentModel::add($data = Array) should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\PositionContentModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0200s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\PositionContentModel.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 28 行.
+
+[ 2017-08-12T23:33:23+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Common\functions.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 50 行.
+
+[ 2017-08-12T23:34:44+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Common\functions.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 50 行.
+
+[ 2017-08-12T23:34:54+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Common\functions.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 50 行.
+
+[ 2017-08-12T23:35:23+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Common\functions.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 50 行.
+
+[ 2017-08-12T23:36:21+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Common\functions.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 52 行.
+
+[ 2017-08-12T23:36:53+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Common\functions.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T23:38:09+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Common\functions.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 23 行.
+NOTIC: [8] Undefined variable: position F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 50 行.
+
+[ 2017-08-12T23:38:11+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Common\functions.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 23 行.
+NOTIC: [8] Undefined variable: position F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 50 行.
+
+[ 2017-08-12T23:38:59+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Common\functions.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T23:41:47+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Common\functions.php 第 38 行.
+NOTIC: [8] Use of undefined constant length - assumed 'length' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

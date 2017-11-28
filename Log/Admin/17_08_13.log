@@ -1,0 +1,135 @@
+[ 2017-08-13T14:07:31+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Common\functions.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 24 行.
+
+[ 2017-08-13T14:08:26+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Common\functions.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 24 行.
+
+[ 2017-08-13T14:10:01+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Common\functions.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 24 行.
+
+[ 2017-08-13T14:10:58+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Common\functions.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 24 行.
+
+[ 2017-08-13T14:11:57+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Common\functions.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 24 行.
+
+[ 2017-08-13T14:13:24+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Common\functions.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 24 行.
+
+[ 2017-08-13T14:14:39+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 24 行.
+
+[ 2017-08-13T14:14:52+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 24 行.
+
+[ 2017-08-13T14:15:17+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 24 行.
+
+[ 2017-08-13T14:15:56+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('33','34')  [ RunTime:0.0620s ]
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 24 行.
+
+[ 2017-08-13T14:19:12+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('33','34')  [ RunTime:0.0010s ]
+NOTIC: [2] Declaration of Common\Model\PositionContentModel::add($data = Array) should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\PositionContentModel.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`,`update_time`) VALUES ('6','测试123123','','33','1','2017-08-13 14:19:12','2017-08-13 14:19:12') [ RunTime:0.0500s ]
+NOTIC: [8] Undefined index: validate F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`,`update_time`) VALUES ('6','测试','','34','1','2017-08-13 14:19:12','2017-08-13 14:19:12') [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 49 行.
+
+[ 2017-08-13T14:21:34+08:00 ] ::1 /yitian/index.php/admin/PositionContent/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('33','34')  [ RunTime:0.0000s ]
+NOTIC: [2] Declaration of Common\Model\PositionContentModel::add($data = Array) should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\PositionContentModel.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`,`update_time`) VALUES ('7','测试123123','','33','1','2017-08-13 14:21:34','2017-08-13 14:21:34') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`,`update_time`) VALUES ('7','测试','','34','1','2017-08-13 14:21:34','2017-08-13 14:21:34') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\PositionContentController.class.php 第 49 行.
+
+[ 2017-08-13T14:37:13+08:00 ] ::1 /yitian/index.php/admin/positioncontent/index.html?v=4.0
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-08-13T14:37:24+08:00 ] ::1 /yitian/index.php/admin/positionContent/index.html?v=4.0
+ERR: Think\Model:getNewsListcount方法不存在！
+
+[ 2017-08-13T15:22:29+08:00 ] ::1 /yitian/index.php/Admin/PositionContent/addNew.html
+ERR: 非法操作:addNew
+
+[ 2017-08-13T15:54:31+08:00 ] ::1 /yitian/index.php/Admin/PositionContent/addNew.html
+ERR: 非法操作:addNew
+
+[ 2017-08-13T15:55:48+08:00 ] ::1 /yitian/index.php/Admin/PositionContent/addNew.html
+ERR: 非法操作:addNew
+
+[ 2017-08-13T15:55:52+08:00 ] ::1 /yitian/index.php/Admin/PositionContent/addNew.html
+ERR: 非法操作:addNew
+
+[ 2017-08-13T16:54:17+08:00 ] ::1 /yitian/index.php/Admin/PositionContent/addNew.html
+ERR: 非法操作:addNew
+

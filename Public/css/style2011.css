@@ -1,0 +1,123 @@
+body {
+	margin: 0px; background-image: url("../images/bg.jpg"); background-attachment: fixed; background-repeat: repeat-x;
+}
+
+#menu ul li a{
+    text-align: center;
+    font-size: 15px;
+}
+
+a:link {
+	color: rgb(76, 76, 76); font-size: 13px; text-decoration: none;
+}
+a:visited {
+	color: rgb(76, 76, 76); font-size: 13px; text-decoration: none;
+}
+a:hover {
+	color: rgb(76, 76, 76); font-size: 13px; text-decoration: none;
+}
+a:active {
+	color: rgb(76, 76, 76); font-size: 13px; text-decoration: none;
+}
+a.s:link {
+	color: rgb(75, 110, 144); font-size: 13px; text-decoration: none;
+}
+a.s:visited {
+	color: rgb(75, 110, 144); font-size: 13px; text-decoration: none;
+}
+a.s:hover {
+	color: rgb(75, 110, 144); font-size: 13px; text-decoration: none;
+}
+a.s:active {
+	color: rgb(75, 110, 144); font-size: 13px; text-decoration: none;
+}
+a.l:link {
+	color: rgb(76, 76, 76); font-size: 13px; text-decoration: none;
+}
+a.l:visited {
+	color: rgb(76, 76, 76); font-size: 13px; text-decoration: none;
+}
+a.l:hover {
+	color: rgb(76, 76, 76); font-size: 13px; text-decoration: none;
+}
+a.l2:link {
+	color: rgb(76, 76, 76); font-size: 14px; text-decoration: none;
+}
+a.l2:visited {
+	color: rgb(76, 76, 76); font-size: 14px; text-decoration: none;
+}
+a.l2:hover {
+	color: rgb(76, 76, 76); font-size: 14px; text-decoration: none;
+}
+a.l1:link {
+	color: rgb(87, 120, 153); font-size: 14px; text-decoration: none;
+}
+a.l1:visited {
+	color: rgb(87, 120, 153); font-size: 14px; text-decoration: none;
+}
+a.l1:hover {
+	color: rgb(87, 120, 153); font-size: 14px; text-decoration: none;
+}
+a.ls:link {
+	color: rgb(76, 76, 76); font-size: 13px; text-decoration: none;
+}
+a.ls:visited {
+	color: rgb(76, 76, 76); font-size: 13px; text-decoration: none;
+}
+a.ls:hover {
+	color: rgb(76, 76, 76); font-size: 13px; text-decoration: none;
+}
+a.jls:link {
+	color: rgb(38, 55, 124); font-size: 14px; font-weight: bold; text-decoration: none;
+}
+a.jls:visited {
+	color: rgb(38, 55, 124); font-size: 14px; font-weight: bold; text-decoration: none;
+}
+a.jls:hover {
+	color: rgb(38, 55, 124); font-size: 14px; font-weight: bold; text-decoration: none;
+}
+td {
+	line-height: 20px; font-size: 12px;
+}
+.STYLE1 {
+	color: rgb(124, 124, 124);
+}
+#title {
+	font-size: 15px; font-weight: bold;
+}
+.line {
+	line-height: 28px;
+}
+.mytd {
+	padding-top: 5px; padding-right: 5px; padding-left: 20px;
+}
+.mytd1 {
+	padding-right: 5px; padding-left: 19px;
+}
+.mytd2 {
+	padding-top: 12px; padding-right: 5px; padding-left: 20px;
+}
+.toolmenu1Body1 {
+	color: rgb(88, 121, 152); line-height: 20px; font-size: 13px;
+}
+.toolmenu1Body {
+	color: rgb(88, 121, 152); line-height: 20px; font-size: 13px;
+}
+.toolBody {
+	line-height: 28px; font-size: 14px;
+}
+.toolBody1 {
+	line-height: 22px; font-size: 14px;
+}
+.gg {
+	color: rgb(88, 121, 152); line-height: 20px; font-size: 13px;
+}
+input.smallInput {
+	font: 9pt/normal Verdana, Arial, Helvetica, sans-serif,""; border: 1px solid rgb(216, 216, 216); border-image: none; height: 16px; size: 13;
+}
+input.smallInput1 {
+	border: 1px solid black; border-image: none; width: 55px; height: 21px; line-height: normal; font-size: 9pt; font-style: normal; font-variant: normal; background-color: rgb(255, 255, 255);
+}
+.tdborder {
+	border-right-color: rgb(206, 206, 206); border-right-width: 1px; border-right-style: dashed;
+}

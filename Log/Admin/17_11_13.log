@@ -1,0 +1,15 @@
+[ 2017-11-13T21:34:20+08:00 ] ::1 /yitian/index.php/admin/upload/Uploadimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `cms_files` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cms_files` (`name`,`type`,`path`,`updata_time`,`author`) VALUES ('5a099f5c5108b.jpg','image/jpeg','/upload/2017/11/13/5a099f5c5108b.jpg','2017-11-13 21:34:20','ceshi') [ RunTime:0.0780s ]
+
+[ 2017-11-13T21:46:50+08:00 ] ::1 /yitian/index.php/Admin/News/addNew.html
+ERR: 1364:Field 'description' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `cms_news` (`title`,`small_title`,`keywords`,`menu_id`,`status`,`create_time`,`username`) VALUES ('texttexttexttexttexttext','texttexttext','texttexttext','4','1','2017-11-13 21:46:50','ceshi')
+

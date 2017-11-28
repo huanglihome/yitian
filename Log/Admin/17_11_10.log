@@ -1,0 +1,93 @@
+[ 2017-11-10T14:44:09+08:00 ] ::1 /yitian/index.php/admin/index/get.html
+ERR: 非法操作:get
+
+[ 2017-11-10T14:44:14+08:00 ] ::1 /yitian/index.php/admin/get/index.html
+ERR: 无法加载控制器:Get
+
+[ 2017-11-10T14:46:45+08:00 ] ::1 /yitian/index.php/admin/login/Login
+ERR: 模板不存在:./webApp/Admin/View/Public/dispatch_jump.html
+
+[ 2017-11-10T14:47:17+08:00 ] ::1 /yitian/index.php/admin/login/Login
+ERR: 模板不存在:./webApp/Admin/View/Public/404.html
+
+[ 2017-11-10T14:47:19+08:00 ] ::1 /yitian/index.php/admin/login/Login
+ERR: 模板不存在:./webApp/Admin/View/Public/404.html
+
+[ 2017-11-10T14:47:20+08:00 ] ::1 /yitian/index.php/admin/login/Login
+ERR: 模板不存在:./webApp/Admin/View/Public/404.html
+
+[ 2017-11-10T14:47:20+08:00 ] ::1 /yitian/index.php/admin/login/Login
+ERR: 模板不存在:./webApp/Admin/View/Public/404.html
+
+[ 2017-11-10T14:47:20+08:00 ] ::1 /yitian/index.php/admin/login/Login
+ERR: 模板不存在:./webApp/Admin/View/Public/404.html
+
+[ 2017-11-10T14:47:42+08:00 ] ::1 /yitian/index.php/admin/login/Login
+ERR: 模板不存在:./webApp/Admin/View//Public/404.html
+
+[ 2017-11-10T14:48:06+08:00 ] ::1 /yitian/index.php/admin/login/Login
+ERR: 模板不存在:./webApp/Admin/View//Public/404.html
+
+[ 2017-11-10T14:48:08+08:00 ] ::1 /yitian/index.php/admin/login/css/style.min.css?v=4.1.0
+ERR: 非法操作:css
+
+[ 2017-11-10T14:48:08+08:00 ] ::1 /yitian/index.php/admin/login/css/font-awesome.min.css?v=4.4.0
+ERR: 非法操作:css
+
+[ 2017-11-10T14:48:08+08:00 ] ::1 /yitian/index.php/admin/login/css/bootstrap.min.css?v=3.3.5
+ERR: 非法操作:css
+
+[ 2017-11-10T14:48:08+08:00 ] ::1 /yitian/index.php/admin/login/css/animate.min.css
+ERR: 非法操作:css
+
+[ 2017-11-10T14:48:08+08:00 ] ::1 /yitian/index.php/admin/login/js/jquery.min.js?v=2.1.4
+ERR: 非法操作:js
+
+[ 2017-11-10T14:48:08+08:00 ] ::1 /yitian/index.php/admin/login/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2017-11-10T14:48:16+08:00 ] ::1 /yitian/index.php/admin/login/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2017-11-10T14:48:16+08:00 ] ::1 /yitian/index.php/admin/login/js/jquery.min.js?v=2.1.4
+ERR: 非法操作:js
+
+[ 2017-11-10T14:48:16+08:00 ] ::1 /yitian/index.php/admin/login/css/animate.min.css
+ERR: 非法操作:css
+
+[ 2017-11-10T14:48:16+08:00 ] ::1 /yitian/index.php/admin/login/css/bootstrap.min.css?v=3.3.5
+ERR: 非法操作:css
+
+[ 2017-11-10T14:48:16+08:00 ] ::1 /yitian/index.php/admin/login/css/font-awesome.min.css?v=4.4.0
+ERR: 非法操作:css
+
+[ 2017-11-10T14:48:16+08:00 ] ::1 /yitian/index.php/admin/login/css/style.min.css?v=4.1.0
+ERR: 非法操作:css
+
+[ 2017-11-10T14:48:16+08:00 ] ::1 /yitian/index.php/admin/login/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2017-11-10T14:48:20+08:00 ] ::1 /yitian/index.php/admin/login
+ERR: 非法操作:index
+
+[ 2017-11-10T14:49:18+08:00 ] ::1 /yitian/index.php/admin/login/js/jquery.min.js?v=2.1.4
+ERR: 非法操作:js
+
+[ 2017-11-10T14:49:18+08:00 ] ::1 /yitian/index.php/admin/login/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2017-11-10T14:49:18+08:00 ] ::1 /yitian/index.php/admin/login/css/animate.min.css
+ERR: 非法操作:css
+
+[ 2017-11-10T14:49:18+08:00 ] ::1 /yitian/index.php/admin/login/css/bootstrap.min.css?v=3.3.5
+ERR: 非法操作:css
+
+[ 2017-11-10T14:49:18+08:00 ] ::1 /yitian/index.php/admin/login/css/style.min.css?v=4.1.0
+ERR: 非法操作:css
+
+[ 2017-11-10T14:49:18+08:00 ] ::1 /yitian/index.php/admin/login/css/font-awesome.min.css?v=4.4.0
+ERR: 非法操作:css
+
+[ 2017-11-10T14:49:18+08:00 ] ::1 /yitian/index.php/admin/login/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+

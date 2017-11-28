@@ -1,0 +1,6 @@
+[ 2017-08-25T00:16:36+08:00 ] 192.168.1.101 /yitian/index.php/admin/Savedb/dumpmysql
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Use of undefined constant JSON - assumed 'JSON' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Admin\Controller\SavedbController.class.php 第 17 行.
+

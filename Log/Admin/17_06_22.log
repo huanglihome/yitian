@@ -1,0 +1,135 @@
+[ 2017-06-22T09:19:41+08:00 ] ::1 /yitian/index.php/admin/user/showloginpageAction
+ERR: 非法操作:showloginpageAction
+
+[ 2017-06-22T09:19:48+08:00 ] ::1 /yitian/index.php/admin/user/showloginpage
+ERR: 非法操作:showloginpage
+
+[ 2017-06-22T09:20:15+08:00 ] ::1 /yitian/index.php/admin/user/%7B%7BCSS_URL%7D%7Dbootstrap.min.css
+ERR: 非法操作:{{CSS_URL}}bootstrap.min.css
+
+[ 2017-06-22T09:20:15+08:00 ] ::1 /yitian/index.php/admin/user/%7B%7BCSS_URL%7D%7Dfont-awesome.min.css?v=4.4.0
+ERR: 非法操作:{{CSS_URL}}font-awesome.min.css
+
+[ 2017-06-22T09:20:15+08:00 ] ::1 /yitian/index.php/admin/user/%7B%7BCSS_URL%7D%7Danimate.min.css
+ERR: 非法操作:{{CSS_URL}}animate.min.css
+
+[ 2017-06-22T09:20:15+08:00 ] ::1 /yitian/index.php/admin/user/%7B%7BCSS_URL%7D%7Dstyle.min.css
+ERR: 非法操作:{{CSS_URL}}style.min.css
+
+[ 2017-06-22T09:20:15+08:00 ] ::1 /yitian/index.php/admin/user/%7B%7BCSS_URL%7D%7Dlogin.min.css
+ERR: 非法操作:{{CSS_URL}}login.min.css
+
+[ 2017-06-22T09:32:53+08:00 ] ::1 /yitian/index.php/admin/user/ShowLoginPage
+ERR: syntax error, unexpected ':', expecting ',' or ';'
+
+[ 2017-06-22T09:36:20+08:00 ] ::1 /yitian/index.php/admin/user/ShowLoginPageAction
+ERR: 非法操作:ShowLoginPageAction
+
+[ 2017-06-22T09:42:23+08:00 ] ::1 /yitian/index.php/admin/user/lLogin
+ERR: 非法操作:lLogin
+
+[ 2017-06-22T10:15:58+08:00 ] ::1 /yitian/index.php/admin/user/login
+ERR: syntax error, unexpected '_db' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2017-06-22T10:17:26+08:00 ] ::1 /yitian/index.php/admin/user/login
+ERR: syntax error, unexpected '_db' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2017-06-22T10:18:29+08:00 ] ::1 /yitian/index.php/admin/user/login
+ERR: SQLSTATE[HY000] [1049] Unknown database 'yitiantp_cms'
+
+[ 2017-06-22T11:26:24+08:00 ] ::1 /yitian/index.php/admin/index/index
+ERR: syntax error, unexpected '}'
+
+[ 2017-06-22T11:26:39+08:00 ] ::1 /yitian/index.php/admin/index/index
+ERR: 非法操作:index
+
+[ 2017-06-22T11:27:11+08:00 ] ::1 /yitian/index.php/admin/index/index
+ERR: 非法操作:index
+
+[ 2017-06-22T11:27:46+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:28:15+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:29:21+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:29:23+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:29:23+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:29:24+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:29:33+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:29:43+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:29:44+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:29:44+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:29:45+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:32:00+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:32:01+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:32:01+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:32:39+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:32:40+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:32:40+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:32:41+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:32:41+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:32:50+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:32:57+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:33:09+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:33:16+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:33:17+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:33:17+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T11:33:17+08:00 ] ::1 /yitian/index.php/Admin/Index/user/Login.html
+ERR: 非法操作:user
+
+[ 2017-06-22T16:03:03+08:00 ] ::1 /yitian/index.php/admin/index/index_v1.html?v=4.0
+ERR: 非法操作:index_v1
+
+[ 2017-06-22T16:05:04+08:00 ] ::1 /yitian/index.php/admin/index/index_v1.html?v=4.0
+ERR: 非法操作:index_v1
+
+[ 2017-06-22T16:09:41+08:00 ] ::1 /yitian/index.php/admin/index/index_v1.html?v=4.0
+ERR: 非法操作:index_v1
+
