@@ -29,8 +29,12 @@
                                     <DIV class="img_main_content">
                                         <UL>
                                             <volist name="newslist" id="news">
-                                            <LI><SPAN class="img_time">{$news.create_time}</SPAN><SPAN class="img_title"><IMG
-                                                    src="img/x.gif">&nbsp;&nbsp;<A href="http://localhost/yitian/index.php/home/index/detail/newsid/{$news.news_id}">{$news.title}......</A></SPAN></LI>
+                                            <LI><SPAN class="img_time">{$news.create_time}</SPAN><SPAN class="img_title">
+                                                <A href="http://localhost/yitian/index.php/home/index/detail/newsid/{$news.news_id}"
+                                                style="white-space: nowrap;width: 400px;overflow: hidden;text-overflow: clip;display: inline-block;"
+                                                ><IMG src="__PUBLIC__/img/x.gif">
+                                                        
+                                                        {$news.title}</A></SPAN></LI>
                                             </volist>
 
                                             </UL></DIV>
