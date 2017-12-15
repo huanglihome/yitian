@@ -33,4 +33,9 @@ class UploadController extends CommonController {
             $this -> ajaxReturn(array("success" => true,"msg" => "上传成功","file_path" => $res ),'JSON');
         }
     }
+    //显示文件列表
+    public function getUploadListAction(){
+
+    }
+
 }

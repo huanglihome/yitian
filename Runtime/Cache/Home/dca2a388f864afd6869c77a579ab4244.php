@@ -17,7 +17,7 @@
     <SCRIPT language="JavaScript" src="/yitian/Public/js/jquery-1.6.1.min.js" type="text/javascript"></SCRIPT>
     <LINK href="/yitian/Public/css/style2011.css" rel="stylesheet"
           type="text/css">
-    <link href="/yitian/Public/css/bootstrap.min.css" rel="stylesheet">
+    
     <STYLE type="text/css">
         <!--
         .STYLE2 {color: #26377f}
@@ -157,7 +157,7 @@
     <SCRIPT src="/yitian/Public/js/jquery-1.4.2.js" type="text/javascript"></SCRIPT>
 
     <SCRIPT src="/yitian/Public/js/slide.js" type="text/javascript"></SCRIPT>
-
+    
     <TR>
         <TD width="990"><!--<div cmsid="57727841"  style="width:100%;">
 <iframe src="/jsp/login.jsp" frameborder=0 scrolling="no" style="width:100%;height:35px;border:0;"></iframe>
@@ -235,7 +235,9 @@
                                             <TD width="12" height="18" align="center"><IMG src="/yitian/Public/img/x.gif">
                                             </TD>
                                             <TD height="21" class="gg"><A title="" href="http://localhost/yitian/index.php/home/index/detail/newsid/<?php echo ($news["news_id"]); ?>"
-                                                                          target="_self"><?php echo ($news["title"]); ?>...</A></TD></TR><?php endforeach; endif; else: echo "" ;endif; ?>
+                                                                          target="_self" style="white-space: nowrap;width: 190px;overflow: hidden;text-overflow: clip;display: inline-block;">
+                                                                          <?php echo ($news["title"]); ?></A>
+                                                                        </TD></TR><?php endforeach; endif; else: echo "" ;endif; ?>
 
                                       </TBODY>
                                     </TABLE></TD></TR>
@@ -291,7 +293,7 @@
 
             <!--下半部分，人才培养，学校新闻，校园动态-->
 
-            <TABLE width="963" align="center" style="border: 1px solid rgb(229, 224, 205);"
+            <TABLE width="963" align="center" style="border: 1px solid rgb(229, 224, 205);background-color: #f2f0e8;"
                    border="0" cellspacing="0" cellpadding="0">
                 <TBODY>
                 <TR>
@@ -320,7 +322,9 @@
                                                         <TD width="27" height="25" align="center"><IMG src="/yitian/Public/img/x.gif">
                                                         </TD>
                                                         <TD height="25"><A title="" href="http://localhost/yitian/index.php/home/index/detail/newsid/<?php echo ($news["news_id"]); ?>"
-                                                                           target="_self"><?php echo ($news["title"]); ?>...</A></TD></TR><?php endforeach; endif; else: echo "" ;endif; ?>
+                                                                           target="_self" style="white-space: nowrap;width: 185px;overflow: hidden;text-overflow: clip;display: inline-block;"
+                                                                           >
+                                                                           <?php echo ($news["title"]); ?></A></TD></TR><?php endforeach; endif; else: echo "" ;endif; ?>
 
                                                  </TBODY></TABLE></TD></TR>
                                         <TR>
@@ -405,7 +409,8 @@
                                                     <?php if(is_array($article['学校新闻']['content'])): $i = 0; $__LIST__ = array_slice($article['学校新闻']['content'],1,10,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$news): $mod = ($i % 2 );++$i;?><TR>
                                                         <TD width="12" height="19" align="center"><IMG src="/yitian/Public/img/x.gif"></TD>
                                                         <TD height="20"><A href="http://localhost/yitian/index.php/home/index/detail/newsid/<?php echo ($news["news_id"]); ?>"
-                                                                           target="_self"><?php echo ($news["title"]); ?>......</A></TD>
+                                                                           target="_self" style="white-space: nowrap;width: 300px;overflow: hidden;text-overflow: clip;display: inline-block;">
+                                                                           <?php echo ($news["title"]); ?></A></TD>
                                                         <TD></TD></TR><?php endforeach; endif; else: echo "" ;endif; ?>
                                                    </TBODY></TABLE></TD></TR>
                                         <TR>
@@ -431,7 +436,8 @@
                                             </TD>
                                             <TD height="25" class="gg"><A title="<?php echo ($news["title"]); ?>"
                                                                           href="http://localhost/yitian/index.php/home/index/detail/newsid/<?php echo ($news["news_id"]); ?>"
-                                                                          target="_self"><?php echo ($news["title"]); ?>...</A></TD></TR><?php endforeach; endif; else: echo "" ;endif; ?>
+                                                                          target="_self" style="white-space: nowrap;width: 260px;overflow: hidden;text-overflow: clip;display: inline-block;">
+                                                                          <?php echo ($news["title"]); ?></A></TD></TR><?php endforeach; endif; else: echo "" ;endif; ?>
                                       </TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
 
 

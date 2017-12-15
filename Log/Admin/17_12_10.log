@@ -1,0 +1,20 @@
+[ 2017-12-10T15:52:37+08:00 ] ::1 /yitian/index.php/Admin/Login/Login.html
+ERR: SQLSTATE[HY000] [1042] Can't get hostname for your address
+
+[ 2017-12-10T15:59:15+08:00 ] ::1 /yitian/index.php/Admin/Login/Login.html
+ERR: SQLSTATE[HY000] [1042] Can't get hostname for your address
+
+[ 2017-12-10T16:03:00+08:00 ] ::1 /yitian/index.php/Admin/Login/Login.html
+ERR: SQLSTATE[HY000] [1042] Can't get hostname for your address
+
+[ 2017-12-10T16:18:53+08:00 ] ::1 /yitian/index.php/admin/upload/kindUpload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\install\phpApache\Apache24\htdocs\yitian\webApp\Common\Model\UploadModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\install\phpApache\Apache24\htdocs\yitian\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `cms_files` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cms_files` (`name`,`type`,`path`,`updata_time`,`author`) VALUES ('5a2ceded77560.jpg','image/jpeg','/upload/2017/12/10/5a2ceded77560.jpg','2017-12-10 16:18:53','ceshi') [ RunTime:0.1680s ]
+

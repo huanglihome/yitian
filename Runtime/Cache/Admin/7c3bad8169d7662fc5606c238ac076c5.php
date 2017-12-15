@@ -98,6 +98,9 @@
                         <a class="J_menuItem" href="<?php echo U('/admin/leavingmsg/index');?>"><i class="fa fa-envelope"></i> <span class="nav-label">留言管理</span></a>
                     </li>
                     <li>
+                        <a class="J_menuItem" href="<?php echo U('/admin/files/index');?>"><i class="fa fa-user"></i> <span class="nav-label"></span>文件管理</a>
+                    </li>
+                    <li>
                         <a class="J_menuItem" href="<?php echo U('/admin/site/setsite');?>"><i class="fa fa-desktop"></i> <span class="nav-label">站点设置</span></a>
                     </li>
                 </ul>

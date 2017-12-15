@@ -17,7 +17,7 @@
     <SCRIPT language="JavaScript" src="/yitian/Public/js/jquery-1.6.1.min.js" type="text/javascript"></SCRIPT>
     <LINK href="/yitian/Public/css/style2011.css" rel="stylesheet"
           type="text/css">
-    <link href="/yitian/Public/css/bootstrap.min.css" rel="stylesheet">
+    
     <STYLE type="text/css">
         <!--
         .STYLE2 {color: #26377f}
@@ -157,7 +157,7 @@
     <SCRIPT src="/yitian/Public/js/jquery-1.4.2.js" type="text/javascript"></SCRIPT>
 
     <SCRIPT src="/yitian/Public/js/slide.js" type="text/javascript"></SCRIPT>
-
+    
     <TR>
         <TD width="990"><!--<div cmsid="57727841"  style="width:100%;">
 <iframe src="/jsp/login.jsp" frameborder=0 scrolling="no" style="width:100%;height:35px;border:0;"></iframe>

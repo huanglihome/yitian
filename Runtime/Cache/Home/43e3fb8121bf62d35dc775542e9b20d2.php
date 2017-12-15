@@ -39,54 +39,33 @@
     <meta data-brackets-id="28" name="GENERATOR" content="MSHTML 11.00.9600.18817"></head>
 <body data-brackets-id="29">
 
-<div class="row">
-    <div class="col-md-1" style="background-color: #fff;"></div>
-    <div class="col-md-10" style=" display: block;  margin-left: auto;  margin-right: auto;">
-        <IMG src="/yitian/Public/img/h_01b.jpg"
-             class="img-responsive" alt="Responsive image">
-        </IMG>
-    </div>
-    <div class="col-md-1" style="background-color: #fff;"></div>
-</div>
-
-
-<div class="row">
-    <div class="col-md-1" style="background-color: #fff;"></div>
-    <?php if(is_array($position['导航栏']['content'])): $i = 0; $__LIST__ = $position['导航栏']['content'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><div class="col-md-1"><a href="<?php echo ($data["url"]); ?>"><?php echo ($data["title"]); ?></a></div><?php endforeach; endif; else: echo "" ;endif; ?>
-    <div class="col-md-1" style="background-color: #fff;"></div>
-</div>
+    <TABLE width="990" align="center" border="0" cellspacing="0" cellpadding="0">
+        
+            <TBODY>
+        
+           
+        
+            <TR>
+                <TD width="990"><!--<div cmsid="57727841"  style="width:100%;">
+        <iframe src="/jsp/login.jsp" frameborder=0 scrolling="no" style="width:100%;height:35px;border:0;"></iframe>
+        </div>
+        -->
+                    <TABLE width="990" align="center" border="0" cellspacing="0" cellpadding="0">
+                        <TBODY>
+                        <TR>
+                            <TD><IMG width="990" src="/yitian/Public/img/h_01b.jpg"
+                                     border="0" usemap="#Map">
+                            </TD></TR></TBODY></TABLE>
+                    <DIV id="menu" style="background-color:#2d3c7f;">
+                        <UL id="nav" >
+                            <?php if(is_array($position['导航栏']['content'])): $i = 0; $__LIST__ = $position['导航栏']['content'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><LI class="mainlevel" id="mainlevel_01"><A href="<?php echo ($data["url"]); ?>"
+                                                                           target="_self"><?php echo ($data["title"]); ?></A></LI><?php endforeach; endif; else: echo "" ;endif; ?>
+                        </UL></DIV>
+                </TD></TR></TBODY></TABLE>
 
 
 <div data-brackets-id="30" class="page-wrapper">
-    <script data-brackets-id="31" type="text/javascript">
-        function clickButton() {
-            if (event.keyCode == 13) {
-                // document.getElementById("search_btn").click();
-                return false;
-            }
-        }
-        function checksf() {
-            var flag = true;
-            var key = document.getElementById("q").value.toLowerCase();
-            if (key == "") {
-                alert("输入你想查找的内容!");
-                flag = false;
-            }
-
-            var sQuery = key.substring(key.indexOf("=") + 1);
-            re = /select|update|delete|truncate|join|union|exec|insert|drop|count|’|"|;|>|<|%/i;
-            if (re.test(sQuery)) {
-                alert("请勿输入非法字符!");
-                document.getElementById("q").value = "";
-                flag = false;
-            }
-
-            if (flag)
-                search_frm.submit();
-            else
-                return false;
-        }
-    </script>
+    
 
     <div data-brackets-id="32" id="header"></div><!--头部图片-->
     <section data-brackets-id="213" id="conhead">

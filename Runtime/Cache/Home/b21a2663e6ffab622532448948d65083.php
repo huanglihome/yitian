@@ -17,7 +17,7 @@
     <SCRIPT language="JavaScript" src="/yitian/Public/js/jquery-1.6.1.min.js" type="text/javascript"></SCRIPT>
     <LINK href="/yitian/Public/css/style2011.css" rel="stylesheet"
           type="text/css">
-    <link href="/yitian/Public/css/bootstrap.min.css" rel="stylesheet">
+    
     <STYLE type="text/css">
         <!--
         .STYLE2 {color: #26377f}
@@ -157,7 +157,7 @@
     <SCRIPT src="/yitian/Public/js/jquery-1.4.2.js" type="text/javascript"></SCRIPT>
 
     <SCRIPT src="/yitian/Public/js/slide.js" type="text/javascript"></SCRIPT>
-
+    
     <TR>
         <TD width="990"><!--<div cmsid="57727841"  style="width:100%;">
 <iframe src="/jsp/login.jsp" frameborder=0 scrolling="no" style="width:100%;height:35px;border:0;"></iframe>
@@ -204,8 +204,12 @@
                                 <TD> ﻿
                                     <DIV class="img_main_content">
                                         <UL>
-                                            <?php if(is_array($newslist)): $i = 0; $__LIST__ = $newslist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$news): $mod = ($i % 2 );++$i;?><LI><SPAN class="img_time"><?php echo ($news["create_time"]); ?></SPAN><SPAN class="img_title"><IMG
-                                                    src="img/x.gif">&nbsp;&nbsp;<A href="http://localhost/yitian/index.php/home/index/detail/newsid/<?php echo ($news["news_id"]); ?>"><?php echo ($news["title"]); ?>......</A></SPAN></LI><?php endforeach; endif; else: echo "" ;endif; ?>
+                                            <?php if(is_array($newslist)): $i = 0; $__LIST__ = $newslist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$news): $mod = ($i % 2 );++$i;?><LI><SPAN class="img_time"><?php echo ($news["create_time"]); ?></SPAN><SPAN class="img_title">
+                                                <A href="http://localhost/yitian/index.php/home/index/detail/newsid/<?php echo ($news["news_id"]); ?>"
+                                                style="white-space: nowrap;width: 400px;overflow: hidden;text-overflow: clip;display: inline-block;"
+                                                ><IMG src="/yitian/Public/img/x.gif">
+                                                        
+                                                        <?php echo ($news["title"]); ?></A></SPAN></LI><?php endforeach; endif; else: echo "" ;endif; ?>
 
                                             </UL></DIV>
                                    <?php echo ($page); ?>
